@@ -1,0 +1,147 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div {
+  background-color: #f2f2f2;
+  padding: 1.5rem;
+  padding-bottom: 0;
+}
+
+header {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 1.5rem;
+  padding-top: 0;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: stretch;
+}
+
+.cards li {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: .75rem;
+  text-align: left;
+  align-items: stretch;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  margin: 0 auto 1.5rem;
+  font-size: 1rem;
+}
+
+.cards i, a {
+  font-size: .875rem;
+}
+
+.cards a {
+  display: block;
+  padding: .4em .75em .3em;
+  font-size: .875rem;
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  text-decoration: none;
+  border-width: 3px;
+  border-color: #333;
+  border-style: solid;
+}
+
+.btn-small {
+  padding: 0;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.btn {
+  padding: 0;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.first {
+  background-color: #e2e2e2;
+  margin: 0;
+  padding: .75rem;
+  flex-grow: 1;
+}
+
+.second {
+  background-color: #ccc;
+  margin: 0;
+  padding: .75rem;
+  flex-grow: 2;
+}
+
+.third {
+  background-color: #aaa;
+  margin: 0;
+  padding: .75rem;
+  flex-grow: 3;
+}
+
+.fourth {
+  background-color: #999;
+  margin: 0;
+  padding: .75rem;
+  flex-grow: 4;
+}
+
+.first, .second, .third, .fourth {
+  align-items: stretch;
+  border-left: thin solid #333;
+  border-right: thin solid #333;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 0;
+  padding: .75rem;
+  padding-top: 1.5rem;
+}
